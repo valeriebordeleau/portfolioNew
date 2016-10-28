@@ -1,0 +1,86 @@
+---
+layout: projects
+title: Nova Video Service
+next: /perbeat
+previous: /internalSurvey
+---
+<!-- jekyll sample
+{% for dino in site.data.dinos %}
+    <h3>{{dino.name}}</h3>
+    <dl>
+        <dt>Diet</dt>
+        <dd>{{dino.diet}}</dd>
+        <dt>Size</dt>
+        <dd>{{dino.size}}</dd>
+        </dl>
+    {% endfor %} -->   
+        
+    
+<main id="main">
+
+<!-- Portfolio -->  
+    
+        <div class="grid pad-t island">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/novaBanner.jpg" class="main-p-img embed__item" alt="Nova Video Service Branding">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for nova in site.data.nova %}
+                <h4 class="p-sub push-0 pad-top">Objective</h4>
+                <p>{{nova.blurb1}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit--> 
+            
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/nova2.jpg" class="main-p-img embed__item" alt="Nova App Concept Wireframes">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 p-pad">
+            <div class="p-text-blurb gutter">
+                {% for nova in site.data.nova %}
+                <h4 class="p-sub push-0">Low Fidelity</h4>
+                <p>{{nova.blurb2}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/nova3.jpg" class="main-p-img embed__item" alt="Nova App Visual Design">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 p-pad">
+            <div class="p-text-blurb gutter">
+                {% for nova in site.data.nova %}
+                <h4 class="p-sub push-0">High fidelity</h4>
+                <p>{{nova.blurb3}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
+       <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island">
+                <div class="embed embed--16by9">
+                    <iframe src="https://player.vimeo.com/video/177393070" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="embed__item"></iframe>
+                    </div><!-- embed -->
+            </div><!-- unit -->
+            
+              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 p-pad">
+            <div class="p-text-blurb gutter">
+                {% for nova in site.data.nova %}
+                <h4 class="p-sub push-0">Concept Demo</h4>
+                <p>{{nova.blurb4}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
+        </div><!-- grid -->
+    </div><!-- portfolio -->
+</main>    
