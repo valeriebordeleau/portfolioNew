@@ -1810,25 +1810,14 @@ a:focus {
 }
 
 .banner {
-    height: 22em;
-    /* background-image: url(../artwork/portrait2.png); */
+    height: 20em;
     background-color: #071c2c;
-    background-size: 80%;
-    background-position: 100% bottom;
-    background-repeat: no-repeat;
-}
-
-.banner2{
-      background-image: url(../artwork/bkgTile.jpg);
-      background-size: 180%;
-      margin: 0;
-      padding: 0;
 }
 
 .wordmark {
     fill: white;
-    margin: 3em 0em 0em 0em;
-    width: 65%;
+    margin: 3.8em 0em 0em 0em;
+    width: 58%;
     padding: 0;
     overflow: visible;
      -webkit-transition: all 300ms ease-out; 
@@ -2411,28 +2400,18 @@ a:focus {
     
 .banner {
 height: 20em;
-background-size: 50%;
-background-position: 65% bottom;
 }
       
     
 .wordmark {
     width: 45%;
-    margin: 3em 0em 0em 0em;
+    margin: 3.7em 0em 0em 0em;
 }
     
 }
     
 /*medium*/@media only screen and (min-width: 40em) {        
-  
-.banner2{
-      background-size: 110%;
-      margin: 0;
-      padding: 0;
-    background-color: #222222;
-}        
-    
-    
+            
 .p-s-colour{
     background-color: #1b222a;
     color: white;
@@ -2459,15 +2438,13 @@ background-position: 65% bottom;
 }    
     
 .banner {
-    height: 26em;
-    background-size: 50%;
-    background-position:70% bottom;
+    height: 24em;
     }
         
     
 .wordmark {
     width: 40%;
-    margin: 3.75em 0em 0em 0em;
+    margin: 4.2em 0em 0em 0em;
 }  
     
 .only-sm {
@@ -2508,14 +2485,12 @@ background-position: 65% bottom;
     }    
     
 .banner {
-    height: 28em;
-    background-size: 35%;
-    background-position:60% bottom;
+    height: 30em;
     }        
     
 .wordmark {
-    width: 25%;
-    margin: 5em 0em 0em 0em;
+    width: 30%;
+    margin: 4.75em 0em 0em 0em;
 }
     
  .about {
@@ -2556,8 +2531,12 @@ background-position: 65% bottom;
     padding: 2em 10em 2em 10em;
     }
     .banner {
-        height: 36em;
+        height: 34em;
     }
+    .wordmark {
+    width: 30%;
+    margin: 5.5em 0em 0em 0em;
+}
 }
 
 
