@@ -612,13 +612,11 @@ a:focus {
 
 
 .arrow3 {
-    text-decoration: none;
-    color:#6D6E71;
-    font-size: 2em;
+    fill:#6D6E71;
     padding-bottom:45px;
-    padding-right: 15px;
-    padding-left: 5px;
-    padding-top: 10px;
+    padding-right: 100%;
+    padding-top: 14px;
+    padding-left: 10px;
     border-radius: 100%;
     -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
@@ -629,14 +627,32 @@ a:focus {
 .arrow3:hover,
 .arrow3:active,
 .arrow3:focus {
-    color: #C86C61;
+    fill: #C86C61;
+}
+
+.arrow4 {
+ fill:#6D6E71;
+    padding-bottom:45px;
+    padding-top: 14px;
+    padding-left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+    border-radius: 100%; 
+}
+
+
+.arrow4:hover,
+.arrow4:active,
+.arrow4:focus {
+    fill: #C86C61;
 }
 
 .next {
     height: 50px;
     position: absolute;
     top: 2px;
-    right: calc(5% - 10px);
+    left: calc(95% - 16px);
     opacity: 1;
     -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
