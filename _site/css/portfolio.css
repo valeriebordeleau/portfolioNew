@@ -1719,6 +1719,14 @@ small, .milli {
 }
 
 
+html{
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ box-sizing: border-box;
+ overflow-x:hidden;
+}
+
 
 .bio {
     padding: 4em 4em;
