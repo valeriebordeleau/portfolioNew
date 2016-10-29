@@ -2151,15 +2151,14 @@ a:focus {
     display: inline-block;
 }
 
-.iconset i {
-    font-size: 1.5em;
-    color:#6D6E71;
+.iconset {
+    fill:#6D6E71;
 }
 
 .iconset:hover,
 .iconset:active,
 .iconset:focus{
-    color: #C86C61;
+    fill: #C86C61;
     -webkit-transition: all 100ms ease-in-out; 
     transition: all 300ms ease-in-out;
 }
