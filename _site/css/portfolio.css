@@ -1895,22 +1895,22 @@ a:focus {
     transition: all 300ms linear;
 }
 
-.toggle i {
-    color: #888888;
-    font-size: .70em;
-    padding-top: 0;
+.toggle {
+    fill: #888888;
+    height: 25px;
+    padding-top: 12px;
     padding-left: 10px;
     padding-right: 8px;
-    padding-bottom: 0px;
+    padding-bottom: 36px;
     border-radius: 100%;
      -webkit-transition: all 300ms linear;
     transition: all 300ms linear;
 }
 
-.toggle i:hover,
-.toggle i:active,
-.toggle i:focus{
-    color:#C86C61;
+.toggle:hover,
+.toggle:active,
+.toggle:focus{
+    fill:#C86C61;
 }
 
 .toggle-check {
