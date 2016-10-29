@@ -161,26 +161,15 @@ a:focus {
 }
 
 .toggle {
-    padding-top: 0em;
-    padding-left: .113em;
-    padding-bottom: .1em;
     display: block;
-    font-size: 2.25em;
-    opacity: 1;
-     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear;
-}
-
-.toggle {
     fill: #888888;
     height: 25px;
     padding-top: 12px;
     padding-left: 14px;
     padding-right: 0;
     padding-bottom: 36px;
-    border-radius: 100%;
-     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear;
+     -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
 }
 
 .toggle:hover,
