@@ -1728,6 +1728,11 @@ body{
  -webkit-overflow-x:hidden;
 }
 
+html{
+ overflow-x:hidden;
+ -webkit-overflow-x:hidden;  
+}
+
 .bio {
     padding: 4em 4em;
     color: white;
