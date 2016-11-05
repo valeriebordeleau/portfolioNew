@@ -12,6 +12,10 @@ html{
  -webkit-overflow-x:hidden;  
 }
 
+.about-t-p {
+    padding-top: 4em;     
+}
+
 .bio {
     padding: 4em 4em;
     color: white;
@@ -690,11 +694,27 @@ height: 20em;
     width: 45%;
     margin: 3.7em 0em 0em 0em;
 }
+ 
+.about-t-p {
+    padding-top: 4em;     
+}    
+
+.about-p-t-p{
+     padding-top: 2em;     
+    }
     
 }
     
 /*medium*/@media only screen and (min-width: 40em) {        
-            
+ 
+.about-t-p {
+    padding-top: 4em;     
+}    
+
+.about-p-t-p{
+     padding-top: 2em;     
+    }    
+    
 .p-s-colour{
     background-color: #1b222a;
     color: white;
@@ -745,6 +765,11 @@ height: 20em;
 }
 
 /*large former 68*/@media only screen and (min-width: 60em) {
+
+.about-p-t-p{
+     padding-top: 0em;     
+    }    
+        
     
     .island-l {
   padding: 1.3rem;
