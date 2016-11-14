@@ -1829,6 +1829,7 @@ a:focus {
 
 .banner {
     height: 20em;
+    background-image: radial-gradient(ellipse 70% 100% , #071c2c 0%, rgba(0,0,0,.15) 99.5%);
     background-color: #071c2c;
 }
 
