@@ -112,6 +112,14 @@ a:focus {
     background-color: #071c2c;
 }
 
+.bannerTitle {
+    padding-top: 0em;
+    color: #f1f1f1;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
 .wordmark {
     fill: white;
     margin: 3.8em 0em 0em 0em;
@@ -167,6 +175,16 @@ a:focus {
     display: none;  
 }
 
+.bordeleauLeft{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 1.13em;
+}
+
+.toggle-position {
+    
+}
+
 .toggle-label {
     cursor: pointer;
 }
@@ -176,7 +194,7 @@ a:focus {
     fill: #888888;
     height: 25px;
     padding-top: 12px;
-    padding-left: 14px;
+    padding-left: calc(96% - 2em);
     padding-right: 0;
     padding-bottom: 36px;
      -webkit-transition: all 200ms linear;
@@ -233,6 +251,10 @@ a:focus {
     z-index: 1000;
 }
 
+.fullNav {
+    margin-right: 1.13em;
+}
+
 .nav-t-item {
     display: block;
     text-decoration: none;
@@ -241,9 +263,9 @@ a:focus {
     margin: 0;
     font-size: 0.8889rem;
     line-height: 1.4625;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
      -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
 }
@@ -449,6 +471,12 @@ a:focus {
     border-radius: 100%;
     background-color: none;
 }
+
+.icons svg{
+    width: 40px;
+    height: 40px;
+}
+
     
     
 .email {
@@ -624,8 +652,13 @@ a:focus {
     fill: #acc6c9;
 }
 
+.arrow3 svg {
+    width: 30px;
+    height: 30px;
+}
+
 .arrow4 {
- fill:#6D6E71;
+    fill:#6D6E71;
     padding-bottom:45px;
     padding-top: 14px;
     padding-left: 0px;
@@ -640,6 +673,11 @@ a:focus {
 .arrow4:active,
 .arrow4:focus {
     fill: #acc6c9;
+}
+
+.arrow4 svg {
+    width: 30px;
+    height: 30px;
 }
 
 .next {
@@ -671,6 +709,7 @@ a:focus {
     text-align: center;
     display: inline-block;
 }
+  
 }
       
 /*small*/@media only screen and (min-width: 25em) {
@@ -792,10 +831,10 @@ height: 20em;
     height: 30em;
     }        
     
-.wordmark {
-    width: 30%;
-    margin: 4.75em 0em 0em 0em;
+.bannerTitle {
+    padding-top: 6.5em;
 }
+    
     
  .about {
     padding: 10em 2em;

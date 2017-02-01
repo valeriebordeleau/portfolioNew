@@ -1,7 +1,0 @@
-- title: Perbeat
-  blurb1: The goal of this project was to create an android application to help people identify and manage their daily stressors. The main challenge of this project was that data from a wearable piece of technology was required. 
-  blurb2: The first step in this project was to speak with individuals who regularly deal with stress. Identifying their pain points was key. From this stage possible app flows and screens layouts were sketched out.
-  blurb3: The main feature of this application is a daily graph which shows users their current blood pressure, as well as their blood pressure overtime. This graph alerts users to new spikes in their blood pressure, which they can sort into custom categories.
-  blurb4: Users can create custom category names, which are automatically colour coated to help them identify trends.
-  blurb5: Users can get more information about how often each of their stressors affects them under the Patterns Tab. This allows users to identify and address their stressors.
-  
