@@ -259,7 +259,7 @@
 
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 45em) {
 
   .unit-m-hidden {
     display: none;
@@ -743,7 +743,7 @@
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 120em) {
 
   .unit-xl-hidden {
     display: none;
