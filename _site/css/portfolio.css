@@ -2222,7 +2222,7 @@ a:focus {
     list-style: none;
     height: 28em;
     background-color: #36569e;
-    background-image: url(../artwork/topbanner2.png);
+    background-image: url(../artwork/topBanner2.png);
     background-size: 800%;
     padding-top: 12em;
 }
