@@ -112,7 +112,7 @@ a:focus {
 .toggle:hover,
 .toggle:active,
 .toggle:focus{
-    fill:#acc6c9;
+    fill:#333333;
 }
 
 .toggle-check {
@@ -187,7 +187,7 @@ a:focus {
 
 .nav-t-item:hover {
     color: black;
-    border-bottom:solid 6px #36569e;
+    border-bottom:solid 6px #7e858c;
 }
 
 .nav-t-item-proj a {
@@ -229,7 +229,7 @@ a:focus {
     opacity: 1;
     padding: 1em 0em 1em 0;
     color: white;
-    background-color: #36569e;
+    background-color: #333333;
 }
 
 .nav-t {
@@ -440,7 +440,7 @@ a:focus {
 }
 
 .arrowDown:hover svg{
-    fill: #36569e;
+    fill: #7e858c;
 }
 
 
@@ -788,7 +788,7 @@ a:focus {
 .next svg:hover,
 .previous svg:hover,
 .home svg:hover {
-    fill:#36569e;
+    fill:#7e858c;
     opacity: 1;
     -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
