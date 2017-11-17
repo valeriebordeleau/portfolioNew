@@ -2017,7 +2017,7 @@ a:focus {
     list-style: none;
     height: 24em;
     background-color: #f2f2f2;
-    background-image: url(../artwork/topBanner.png);
+    background-image: url(../artwork/topBanner.svg);
     background-position: center center;
     padding-top: 10em;
     background-repeat: no-repeat;
@@ -2382,7 +2382,7 @@ a:focus {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom, left;
-    background-color: #29323f;
+    background-color: #252c37;
     color: #f1f1f1;
 }
 
