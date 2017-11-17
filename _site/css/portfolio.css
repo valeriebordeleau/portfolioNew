@@ -2927,7 +2927,7 @@ a:focus {
 
 .proj1 {
     padding-top: 14em;
-   background-size: 30%, 40%; 
+   background-size: 40%, 40%; 
      background-image: url(../artwork/sign-bkg2.jpg), url(../artwork/sign-bkg1.jpg);
    background-position: left bottom, right bottom;
  }    
