@@ -393,12 +393,8 @@ a:focus {
     background-size: 180%;
     background-position: left bottom;
     background-repeat: no-repeat;
-    background-color: #dddddd;
+    background-color: #d8d8d8;
     padding-top: 10em;
-}
-
-.proj5 h2{
-    color: ;
 }
 
 
@@ -411,9 +407,6 @@ a:focus {
     padding-top: 10em;
 }
 
-.proj5 h6{
-    color: ;
-}
 
 
 .projectbannerTop p {
