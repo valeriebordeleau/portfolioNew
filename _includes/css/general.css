@@ -422,7 +422,7 @@ a:focus {
 
 
 .arrowDown svg{
-    height: 15px;
+    height: 16px;
     fill: #262729;
      -webkit-transition: all 200ms ease-out; 
     transition: all 200ms ease-out;
@@ -877,10 +877,6 @@ a:focus {
 }
       
 /*small*/@media only screen and (min-width: 25em) {      
-    
- .arrowDown svg{
-    height: 25px;
-}
     
     
     .divider {
