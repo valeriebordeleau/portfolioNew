@@ -1104,7 +1104,7 @@ a:focus {
     background-color: #d1d3d3;
     height: 2px;
     border-radius: 100em;
-    margin: 2.6rem;
+    margin: 0, 2.6rem;
 }    
     
 .only-sm {
