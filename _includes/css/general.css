@@ -282,13 +282,13 @@ a:focus {
 .bannerTop {
     text-decoration: none;
     list-style: none;
-    height: 24em;
-    background-color: #f2f2f2;
+    height: 20em;
+    background-color: #24272A;
     background-image: url(../artwork/topBanner.svg);
     background-position: center center;
     padding-top: 10em;
     background-repeat: no-repeat;
-    background-size: 400%;
+    background-size: 600%;
 }
 
 .bannerTop2 {
@@ -417,34 +417,34 @@ a:focus {
 
 .wordmarkTop svg{
     height: 1.5em;
-    fill: #262729;
+    fill: #f2f2f2;
 }
 
 
 .arrowDown svg{
     height: 16px;
-    fill: #262729;
+    fill: #f2f2f2;
      -webkit-transition: all 200ms ease-out; 
     transition: all 200ms ease-out;
 }
 
 .arrowDown:hover svg{
-    fill: #7e858c;
+    fill: #8AC5E4;
 }
 
 
 /* Intro */
 
 .introText {
-    background-color: #262729;
+    background-color: #F2F2F2;
     padding-top: 4em;
     padding-bottom: 4em;
-    color: #f1f1f1;
+    color: #24272A;;
 }
 
 .introText h2{
     font-weight: 300;
-    color: #f1f1f1;
+    color: #24272A;;
 }
 
 
@@ -477,7 +477,7 @@ a:focus {
     text-decoration: none;
     list-style: none;
     height: 28em;
-    background-color: #333333;
+    background-color: #24272A;
     background-image: url(../artwork/topBanner2.png);
     background-size: 800%;
     padding-top: 12em;
@@ -516,7 +516,7 @@ a:focus {
 }
 
 .introEmail {
-   color: #f1f1f1;
+   color: #24272A;
     text-decoration: none;
     letter-spacing: 1px;
      -webkit-transition: all 300ms ease-out; 
@@ -1055,15 +1055,15 @@ a:focus {
     
     
 .wordmarkTop svg{
-    height: 2.5em;
+    height: 2em;
 }    
   
 
     
 .bannerTop {
-    height: 30em;
+    height: 27em;
     padding-top: 12em;
-    background-size: 200%;
+    background-size: 300%;
 }  
 
 .projectbannerTop {
@@ -1247,9 +1247,9 @@ a:focus {
 }    
     
 .bannerTop {
-    padding-top: 18em;
-    height: 50em;
-    background-size: 120%;
+    padding-top: 16em;
+    height: 36em;
+    background-size: 200%;
 }    
     
 .LOnly {
@@ -1388,6 +1388,13 @@ a:focus {
        padding-top: 2em;
        padding-bottom: 2em;
     }
+    
+    
+    .bannerTop {
+    padding-top: 20em;
+    height: 50em;
+    background-size: 150%;
+} 
     
 }
 
