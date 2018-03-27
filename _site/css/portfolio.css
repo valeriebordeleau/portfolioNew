@@ -2981,6 +2981,11 @@ a:focus {
 .aboutBannerTop{
      background-size: 200%;   
 }    
+  
+    
+.wordmarkTop svg{
+    height: 2.5em;
+}      
     
 .bannerTop {
     padding-top: 16em;
