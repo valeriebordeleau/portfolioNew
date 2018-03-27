@@ -42,6 +42,7 @@ html{
 
 #toggle.on .one {
   transform: rotate(45deg) translate(7px, 5px);
+  background: #8AC5E4;
 }
 
 #toggle.on .two {
@@ -50,6 +51,7 @@ html{
 
 #toggle.on .three {
   transform: rotate(-45deg) translate(8px, -6px);
+  background: #8AC5E4;
 }
 
 
@@ -180,14 +182,14 @@ a:focus {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    border-bottom:solid 6px rgba(0,0,0,0);
+    border-bottom:solid 4px rgba(0,0,0,0);
      -webkit-transition: all .5s ease-out; 
     transition: all .5s ease-out;
 }
 
 .nav-t-item:hover {
     color: black;
-    border-bottom:solid 6px #7e858c;
+    border-bottom:solid 4px #8AC5E4;
 }
 
 .nav-t-item-proj a {
@@ -229,7 +231,7 @@ a:focus {
     opacity: 1;
     padding: 1em 0em 1em 0;
     color: white;
-    background-color: #333333;
+    background: #8AC5E4;
 }
 
 .nav-t {
