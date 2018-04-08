@@ -2018,7 +2018,7 @@ a:focus {
     text-decoration: none;
     list-style: none;
     height: 20em;
-    background-color: #24272A;
+    background-color: #161D20;
     background-image: url(../artwork/topBanner.svg);
     background-position: center center;
     padding-top: 10em;
@@ -2062,7 +2062,7 @@ a:focus {
 }
 
 .proj1 {
-    background-color: #252c37;
+    background-color: #161D20;
     padding-top: 12em;
 }
 
@@ -2370,11 +2370,11 @@ a:focus {
 }
 
 .projectItem1 {
-    background-image: url(../artwork/sign-bkg2.png);
-    background-size: 100%;
+    background-image: url(../artwork/reel_thumb2.svg), url(../artwork/reel_thumb.svg);
+    background-size: 80%, 80%;
     background-repeat: no-repeat;
-    background-position: bottom, left;
-    background-color: #252c37;
+    background-position:-6em -7em, 15em 11em;
+    background-color: #161D20;
     color: #f1f1f1;
 }
 
@@ -2599,9 +2599,8 @@ a:focus {
 .email {
     font-size: 1em;
     
-}
+}  
     
-
     
 .social {
     width:80px;
@@ -2662,11 +2661,23 @@ a:focus {
         padding-top: 12em;
     }    
     
+   
+
+    
     
 .projectItem2 {
     background-size: 120%;
 }    
  
+ 
+.projectItem1 {
+    background-image: url(../artwork/reel_thumb2.svg), url(../artwork/reel_thumb.svg);
+    background-size: 70%, 70%;
+    background-repeat: no-repeat;
+    background-position:-7em -7em, 18em 11em;
+    background-color: #161D20;
+    color: #f1f1f1;
+}    
     
 .projectItem4 {
     background-color: #3173b4;
@@ -2781,7 +2792,7 @@ a:focus {
     background-size: 250%;
     padding-top: 14em;
         
-}    
+}       
     
     
 .portrait{
@@ -2807,7 +2818,16 @@ a:focus {
     list-style: none;
     height: 35em;
 }     
-  
+ 
+.projectItem1 {
+    background-image: url(../artwork/reel_thumb2.svg), url(../artwork/reel_thumb.svg);
+    background-size: 70%, 70%;
+    background-repeat: no-repeat;
+    background-position:-6em -4em, 14em 14em;
+    background-color: #161D20;
+    color: #f1f1f1;
+}      
+    
 .projectItem3 {
     background-size: 140%;
     background-position: center center;
@@ -2956,6 +2976,15 @@ a:focus {
     padding-bottom: 8em;
 } 
     
+    
+.projectItem1 {
+    background-image: url(../artwork/reel_thumb2.svg), url(../artwork/reel_thumb.svg);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position:-8em -6em, 27em 18em;
+    background-color: #161D20;
+    color: #f1f1f1;
+}   
     
     
     
