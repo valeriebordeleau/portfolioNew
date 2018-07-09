@@ -32,7 +32,7 @@ html{
 #toggle div {
   width: 100%;
   height: 3px;
-  background: #888888;
+  background: #383838;
   border-radius: 100px;
   margin: 6px auto;
   transition: all 0.3s;
@@ -42,7 +42,7 @@ html{
 
 #toggle.on .one {
   transform: rotate(45deg) translate(7px, 5px);
-  background: #8AC5E4;
+  background: #888888;
 }
 
 #toggle.on .two {
@@ -51,7 +51,7 @@ html{
 
 #toggle.on .three {
   transform: rotate(-45deg) translate(8px, -6px);
-  background: #8AC5E4;
+  background: #888888;
 }
 
 
@@ -101,10 +101,12 @@ a:focus {
 
 .toggle {
     display: block;
+    position: absolute;
+    right: 20px;
+    top: 6px;
     fill: #888888;
     height: 25px;
     padding-top: 12px;
-    padding-left: calc(96% - 2em);
     padding-right: 0;
     padding-bottom: 36px;
     -webkit-transition: all 300ms linear;
@@ -129,7 +131,7 @@ a:focus {
     padding-top: -10em;
     margin: 0;
     position: absolute;
-    top: 2px;
+    top:60px;
     box-shadow: 0px 0px 2px 0px rgba(35, 31, 32, 0.1);
     background-color:rgba(220, 220, 220, .98);
     position: relative;
@@ -142,6 +144,7 @@ a:focus {
 .toggle-check:checked ~ .toggle-menu {
     padding-top: 0em;
     max-height: 200px;
+    width: 100%;
 }
 
 .nav-bar {
@@ -158,9 +161,9 @@ a:focus {
 .nav-bar-s {
    background-color:rgba(250, 250, 250, .98);
     box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
-    margin: 0;
-    padding: 0;
-    height: 50px;
+    margin: 0px;
+    height: 60px;
+    padding-bottom: 0em;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -182,15 +185,22 @@ a:focus {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    border-bottom:solid 4px rgba(0,0,0,0);
+    border-bottom:solid 6px rgba(0,0,0,0);
      -webkit-transition: all .5s ease-out; 
     transition: all .5s ease-out;
 }
 
 .nav-t-item:hover {
     color: black;
-    border-bottom:solid 4px #8AC5E4;
+    border-bottom:solid 6px #D2D1CD;
 }
+
+.nav-t-group-items {
+    position: absolute;
+    float: right;
+    right: 10px;
+}
+
 
 .nav-t-item-proj a {
     line-height: auto;
@@ -199,7 +209,7 @@ a:focus {
 }
 
 .nav-t-item-proj a:hover {
-    color: black;
+    color: #888888;
 }
 
 
@@ -216,7 +226,7 @@ a:focus {
 
 .nav-t2-item {
     display: block;
-    padding: 1em 0em 1em 0;
+    padding: 1em 0em 1em 0em;
     text-decoration: none;
     opacity: .6;
     color: #111820;
@@ -229,9 +239,8 @@ a:focus {
 
 .nav-t2-item:hover {
     opacity: 1;
-    padding: 1em 0em 1em 0;
     color: white;
-    background: #8AC5E4;
+    background: #888888;
 }
 
 .nav-t {
@@ -284,26 +293,20 @@ a:focus {
 .bannerTop {
     text-decoration: none;
     list-style: none;
-    height: 20em;
-    background-color: #161D20;
-    background-image: url(../artwork/topBanner.svg);
-    background-position: center center;
     padding-top: 10em;
-    background-repeat: no-repeat;
-    background-size: 600%;
+    height: 26em;
+    background-color: #195FDB;
+    overflow: hidden;   
 }
 
-.bannerTop2 {
-    text-decoration: none;
-    list-style: none;
-    height: 30em;
-    background-color: #f2f2f2;
-    background-size: 130%;
-    padding-top: 7em;
-}
+.bannerTop h2 {
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 115%;
+    letter-spacing: .75px;
+    color: white;
 
-.bannerTop2 h2 {
-    padding-top: 2.5em;
+    
 }
 
 .bannerTop p {
@@ -334,8 +337,9 @@ a:focus {
 }
 
 .eachTitle {
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: .25px;
+    line-height: 100%;
 }
 
 
@@ -366,9 +370,9 @@ a:focus {
 
 .proj3 {
     background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg4.jpg);
-    background-size: 180%;
-    background-position: bottom center;
+    background-image: url(../artwork/plant_bkg1.jpg);
+    background-size: 400%;
+    background-position: center center;
     background-repeat: no-repeat;
     padding-top: 12em; 
 }
@@ -387,9 +391,9 @@ a:focus {
 }
 
 .proj5 {
-    background-image: url(../artwork/layoutbkg-1.jpg);
-    background-size: 180%;
-    background-position: left bottom;
+    background-image: url(../artwork/layout_bkg.jpg);
+    background-size: 550%;
+    background-position: center 75%;
     background-repeat: no-repeat;
     background-color: #d8d8d8;
     padding-top: 10em;
@@ -413,15 +417,9 @@ a:focus {
 
 .projectBucketTitle {
     line-height: 115%;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: .5px;
 }
-
-.wordmarkTop svg{
-    height: 1.5em;
-    fill: #f2f2f2;
-}
-
 
 .arrowDown svg{
     height: 16px;
@@ -445,7 +443,7 @@ a:focus {
 }
 
 .introText h2{
-    font-weight: 300;
+    font-weight: 400;
     color: #24272A;;
 }
 
@@ -491,18 +489,17 @@ a:focus {
 }
 
 .aboutText {
-       padding-top: 2em;
+       padding-top: 1.25em;
 }
 
 .aboutText p {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .date {
-    opacity: .4;
+    opacity: .6;
     text-transform: uppercase;
     font-size: .7em;
-    padding-bottom: .25em;
 }
 
 .reference {
@@ -517,17 +514,6 @@ a:focus {
     text-decoration: underline solid;
 }
 
-.introEmail {
-   color: #24272A;
-    text-decoration: none;
-    letter-spacing: 1px;
-     -webkit-transition: all 300ms ease-out; 
-    transition: all 300ms ease-out;
-}
-
-.introEmail:hover {
-    text-decoration: underline solid;
-}
 
 /* Btn */
 
@@ -574,18 +560,18 @@ a:focus {
 .btnProject a {
     text-decoration: none;
     color: #f1f1f1;
-    font-size: .95em;
+    font-size: .87em;
     font-weight: 300;
     background-color:#262729;
     border: solid 2px #f1f1f1;
-    padding: 10px 12px 10px 12px;
-    border-radius: 1px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 3px;
 }
 
 .btnProject a:hover {
     text-decoration: none;
     color: #f1f1f1;
-    background-color:#8AC5E4;
+    background-color:#888888;
      -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
 }
@@ -620,20 +606,17 @@ a:focus {
 }
 
 .projectText h6 {
-    font-size: 1em;
-    font-weight: 300;
-    padding-bottom: .4em;
+    font-size: .75em;
+    letter-spacing: .5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: .6em;
     opacity: .4;
 }
 
-
-
-.projectText1 h6 {
-     padding-top: 2em;
-    font-size: 1em;
-    font-weight: 300;
-    padding-bottom: .4em;
-    opacity: .4;
+.projectText p {
+    opacity: .5;
+    line-height: 1.65em;
 }
 
 .projectItem1 {
@@ -645,8 +628,14 @@ a:focus {
     color: #f1f1f1;
 }
 
-.projectItem1 h3 {
+.projectItem1 h3,
+.projectItem1 h6 {
     color: #f1f1f1;
+}
+
+.projectItem1 h6 {
+    font-weight: 300;
+    opacity: .8;
 }
 
 .projectItem2 {
@@ -657,17 +646,27 @@ a:focus {
     background-position: bottom, center;
 }
 
+.projectItem2 h6 {
+    font-weight: 300;
+    opacity: .8;
+}
 
 .projectItem3 {
-     background-image: url(../artwork/caff_bkg1.jpg);
+     background-image: url(../artwork/plant_bkg1.jpg);
      background-position: center top;
-    background-size: 157%;
+    background-size: 250%;
 
 }
 
 .projectItem3 h3,
+.projectItem3 h6,
 .projectItem3 p {
    color: #f1f1f1;
+}
+
+.projectItem3 h6 {
+    font-weight: 300;
+    opacity: .8;
 }
 
 
@@ -680,23 +679,28 @@ a:focus {
 }
 
 .projectItem4 h3,
+.projectItem4 h6,
 .projectItem4 p {
    color: #f1f1f1;
 }
 
+.projectItem4 h6 {
+    font-weight: 300;
+    opacity: .8;
+}
 
 .projectItem5 {
     background-color: #dddddd;
-    background-image: url(../artwork/layoutbkg-6.jpg);
-    background-position: center bottom;
-    background-size: 120%;
+    background-image: url(../artwork/layout_bkg.jpg);
+    background-position: 30% 5%;
+    background-size: 350%;
     background-repeat: no-repeat;
 }
 
-.projectItem5 h3 {
-   color: ;
+.projectItem5 h6 {
+    font-weight: 300;
+    opacity: .8;
 }
-
 
 .projectItem6 {
     background-color: #1bbaa9;
@@ -710,7 +714,39 @@ a:focus {
     color: #f1f1f1;
 }
 
+.projectItem6 h6 {
+    font-weight: 300;
+    opacity: .9;
+}
 
+
+.home-main {
+    position: absolute;
+    left: 8px;
+    top: 0px;  
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    font-size: 0.8889rem;
+    line-height: 1.4625;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    height: 0px;
+}
+
+.home-main svg {
+    height: 32px;
+    fill:#383838;
+}
+
+.home-main svg:hover {
+    fill:#888888;
+    -webkit-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+}
 
 
 .home {
@@ -720,7 +756,7 @@ a:focus {
     font-weight: 300;
     display: block;
     text-decoration: none;
-    color:#4a4f54;
+    color:#383838;
     list-style-type: none;
     margin: 0;
     font-size: 0.8889rem;
@@ -739,7 +775,7 @@ a:focus {
     font-weight: 300;
     display: block;
     text-decoration: none;
-    color:#4a4f54;
+    color:#383838;
     list-style-type: none;
     margin: 0;
     font-size: 0.8889rem;
@@ -757,7 +793,7 @@ a:focus {
     font-weight: 300;
     display: block;
     text-decoration: none;
-    color:#4a4f54;
+    color:#383838;
     list-style-type: none;
     margin: 0;
     font-size: 0.8889rem;
@@ -780,8 +816,7 @@ a:focus {
 .next svg:hover,
 .previous svg:hover,
 .home svg:hover {
-    fill:#8AC5E4;
-    opacity: 1;
+    fill:#888888;
     -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
 }
@@ -804,9 +839,7 @@ a:focus {
     width: 40px;
     border-radius: 100%;
     background-color: none;
-    opacity: .5;
-    -webkit-transition: all 50ms ease-out; 
-    transition: all 50ms ease-out;
+    opacity: 1;
 }
 
 .icons svg{
@@ -815,27 +848,11 @@ a:focus {
 }
 
 .icons:hover {
-    opacity: 1;
+    opacity: .5;
+    -webkit-transition: all 100ms ease-out; 
+    transition: all 100ms ease-out;
 }
     
-    
-.email,
-.email a:link,
-.email a:visited,
-.email a {
-    font-size: 1em;
-    text-decoration: none;
-    border-bottom: 0px solid #000000;
-    color:black;
-    opacity: .8;
-    font-weight: 300;
-    -webkit-transition: all 300ms ease-out; 
-    transition: all 300ms ease-out;
-}
-
-.email:hover {
-    border-bottom: 1px solid #000000;
-}
 
 .link {
     font-size: 1em;
@@ -847,7 +864,7 @@ a:focus {
 }
 
 .link:hover {
-    color: #B8CED0;
+    color: #888888;
 }
 
 .cb-footer {
@@ -862,11 +879,6 @@ a:focus {
 .proj1 {
     background-size: 150%;
 }    
-    
-.email {
-    font-size: 1em;
-    
-}  
     
     
 .social {
@@ -884,7 +896,7 @@ a:focus {
     .divider {
         width: 70%;
     }    
-
+  
     
 .aboutBannerTop {
      background-size: 500%;   
@@ -901,12 +913,8 @@ a:focus {
     } 
     
 .proj3 {
-    background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg4.jpg);
-    background-size: 130%;
-    background-position: bottom center;
-    background-repeat: no-repeat;
     padding-top: 12em;
+    background-size: 320%;
 }    
     
 .proj4 {
@@ -915,8 +923,8 @@ a:focus {
     
     
 .proj5 {
-    background-size: 130%;
-    background-position: bottom left;
+    background-size: 400%;
+    background-position: center 85%;
     background-repeat: no-repeat;
     background-color: #dddddd;
     padding-top: 12em;     
@@ -956,39 +964,38 @@ a:focus {
     
     
 .wordmarkTop svg{
-    height: 2em;
-}    
+    height: 1.7em;
+    fill:#383838;
+}
+    
+.wordmarkTop svg:hover{
+     fill:#888888;
+    -webkit-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+}  
+    
     
 .bannerTop {
+    padding-top: 10em;
     height: 28em;
-    padding-top: 12em;
-    background-size: 350%;
+    background-size: 100%;
 }
-   
-.toggle-position {
     
+.bannerTop h2 {
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 120%;
+
 }
 
 .toggle-label {
     cursor: pointer;
 }
 
-.toggle {
-    display: block;
-    fill: #888888;
-    height: 25px;
-    padding-top: 12px;
-    padding-left: calc(96% - 2em);
-    padding-right: 0;
-    padding-bottom: 36px;
-     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear;
-}
-
 .toggle:hover,
 .toggle:active,
 .toggle:focus{
-    fill:#36569e;
+    fill:#888888;
 }
 
 .toggle-check {
@@ -1002,8 +1009,24 @@ a:focus {
     }    
 }
 
-/*medium*/@media only screen and (min-width: 40em) {           
+/*medium*/@media only screen and (min-width: 40em) {              
+    
+  
+.bannerTop {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 8.5em;
+    height: 28em;
+    overflow: hidden;   
+}
 
+.bannerTop h2 {
+    text-align: center;
+    font-size: 2.75em;
+    line-height: 120%;
+
+}   
+    
   
 .projTextP {
     font-size: 1.25em;
@@ -1028,9 +1051,9 @@ a:focus {
     
 .proj3 {
     background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg4.jpg);
-    background-size: 120%;
-    background-position: bottom center;
+    background-image: url(../artwork/plant_bkg1.jpg);
+    background-size: 300%;
+    background-position: center center;
     background-repeat: no-repeat;
     padding-top: 14em;
 }
@@ -1047,9 +1070,8 @@ a:focus {
     
     
 .proj5 {
-    background-image:  url(../artwork/layoutbkg-2.jpg);
-    background-size: 85%;
-    background-position: top center;
+    background-size: 400%;
+    background-position: top 90%;
     background-repeat: no-repeat;
     padding-top: 14em;
         
@@ -1065,20 +1087,8 @@ a:focus {
 .portrait{
     height: 100%;
     background-size:70%;
-}    
-    
-    
-.wordmarkTop svg{
-    height: 2em;
-}    
+}     
   
-
-    
-.bannerTop {
-    height: 27em;
-    padding-top: 12em;
-    background-size: 300%;
-}  
 
 .projectbannerTop {
     text-decoration: none;
@@ -1096,7 +1106,7 @@ a:focus {
 }      
     
 .projectItem3 {
-    background-size: 140%;
+    background-size: 400%;
     background-position: center center;
 }
     
@@ -1137,25 +1147,25 @@ a:focus {
 
 }
 
-/*medium-l*/@media only screen and (min-width: 45em) { 
-
+/*medium-l*/@media only screen and (min-width: 45em) {  
+    
+    
 .projectWrapper, .projectWrapperFull {
     margin: 0;
     border: 10px solid white;
 }
    
-    .proj3 {
+.proj3 {
+    background-image: url(../artwork/plant_bkg1.jpg);
     background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 100%;
-    background-position: left top,right top;
+    background-size: 200%;
     background-repeat: no-repeat;
     padding-top: 14em; 
 } 
+    
   .proj5 {
-    background-image: url(../artwork/layoutbkg-2.jpg);
-    background-size: 90%;
-    background-position: center top;
+    background-size: 300%;
+    background-position: center 90%;
     background-repeat: no-repeat;
     padding-top: 14em;     
 }    
@@ -1165,15 +1175,23 @@ a:focus {
 }
     
     
-    .aboutBannerTop{
-        background-size: 300%;
+.aboutBannerTop{
+    background-size: 300%;
     }
     
 }
 
 
-/*large former 68*/@media only screen and (min-width: 60em) {
+/*large former 68*/@media only screen and (min-width: 60em) {    
+ 
+    
+.bannerTop h2 {
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 120%;
 
+}       
+    
  .projectItem {
     margin: 0;
 }  
@@ -1217,18 +1235,16 @@ a:focus {
           
 .proj3 {
     background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 95%;
-    background-position: left top,right top;
+    background-position: center center;
+    background-size: 200%;
     background-repeat: no-repeat;
     padding-top: 14em; 
 } 
     
 
 .proj5 {
-   background-image: url(../artwork/layoutbkg-2.jpg);
-    background-size: 90%;
-    background-position: center top;
+    background-size: 290%;
+    background-position: center 85%;
     background-repeat: no-repeat;
     padding-top: 14em;      
 }  
@@ -1256,8 +1272,8 @@ a:focus {
     
     
 .projectItem3 {
-    background-size: 120%;
-    background-position: center left;
+    background-size: 350%;
+    background-position: center;
 }
     
  .projectItem4 {
@@ -1272,21 +1288,14 @@ a:focus {
     text-align: left;
     max-width: 1000px;
 }    
-    
 
 .aboutBannerTop{
      background-size: 200%;   
-}    
-  
-    
-.wordmarkTop svg{
-    height: 2.5em;
-}      
+}       
     
 .bannerTop {
-    padding-top: 16em;
-    height: 36em;
-    background-size: 200%;
+    height: 40em;
+    padding-top: 14em;
 }    
     
 .LOnly {
@@ -1352,18 +1361,15 @@ a:focus {
  
 .proj3 {
     background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 97%;
-    background-position: left top,right top;
+    background-size: 180%;
     background-repeat: no-repeat;
     padding-top: 14em;
     }
     
     
 .proj5 {
-    background-image: url(../artwork/layoutbkg-3.jpg), url(../artwork/layoutbkg-4.jpg);
-    background-size: 55%, 20%;
-    background-position: left top, right top;
+    background-size: 190%;
+    background-position: 20%, 80%;
     background-repeat: no-repeat;
     padding-top: 14em;     
 } 
@@ -1395,11 +1401,10 @@ a:focus {
     
 /*xlarge*/@media only screen and (min-width: 130em) { 
    
-    .proj3 {
+.proj3 {
     background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 45%;
-    background-position: left top,right top;
+    background-size: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     padding-top: 14em;
     }
