@@ -1817,6 +1817,11 @@ html{
 
 /* Accessibilty */
 
+.copyrights {
+    opacity: .4;
+}
+
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -1909,7 +1914,7 @@ a:focus {
 
 .nav-bar {
     background-color:rgba(250, 250, 250, .95);
-    box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
+    box-shadow:0px 0px 5px 0px rgba(128,128,128, .2);
     margin: 0px;
     height: 60px;
     padding-bottom: 0em;
@@ -1920,7 +1925,7 @@ a:focus {
 
 .nav-bar-s {
    background-color:rgba(250, 250, 250, .98);
-    box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
+    box-shadow:0px 0px 5px 0px rgba(128,128,128, .2);
     margin: 0px;
     height: 60px;
     padding-bottom: 0em;
@@ -2628,10 +2633,9 @@ a:focus {
 }
 
 .cb-footer {
-    padding-top:1.5em;
+    padding-top:2.5em;
     color: #111820;
-    box-shadow: 4px 4px 4px 4px rgba(128,128,128, .35);
-    background-color:rgba(219, 217, 214, .125);
+    background-color: #F9F9F9;
 }
 
 /*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
