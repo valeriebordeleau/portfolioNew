@@ -2096,17 +2096,21 @@ a:focus {
 .bannerTop {
     text-decoration: none;
     list-style: none;
-    padding-top: 10em;
+    padding-top: 5.2em;
     height: 26em;
     background-color: #2462BC;
-    overflow: hidden;   
+    overflow: hidden; 
+        background-image: url(../artwork/topBanner_hand_4.svg);
+    background-size:140%;
+    background-position: center bottom -3em;
+    background-repeat: no-repeat;
 }
 
 .bannerTop h2 {
     text-align: center;
     font-size: 1.8em;
     line-height: 115%;
-    letter-spacing: .75px;
+    letter-spacing: .2px;
     color: white;
 
     
@@ -2801,14 +2805,17 @@ a:focus {
     
     
 .bannerTop {
-    padding-top: 10em;
+    padding-top: 5.25em;
     height: 28em;
-    background-size: 100%;
+        background-image: url(../artwork/topBanner_hand_4.svg);
+    background-size:80%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
     
 .bannerTop h2 {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 2em;
     line-height: 120%;
 
 }
@@ -2842,11 +2849,15 @@ a:focus {
     list-style: none;
     padding-top: 8.5em;
     height: 28em;
-    overflow: hidden;   
+    overflow: hidden;
+    background-image: url(../artwork/topBanner_hand_2.svg);
+    background-size:90%;
+    background-position: bottom right -2em;
+    background-repeat: no-repeat;
 }
 
 .bannerTop h2 {
-    text-align: center;
+    text-align: left;
     font-size: 2.75em;
     line-height: 120%;
 
@@ -2973,7 +2984,19 @@ a:focus {
 }
 
 /*medium-l*/@media only screen and (min-width: 45em) {  
+ 
+.bannerTop {
+    height: 28em;
+     padding-top: 5em;
+    background-image: url(../artwork/topBanner_hand_3.svg);
+    background-size:100%;
+    background-position: bottom -2em right 1em;
+    background-repeat: no-repeat;
+    }    
     
+.bannerTop h2 {
+    text-align: left;
+    }
     
 .projectWrapper, .projectWrapperFull {
     margin: 0;
@@ -3006,16 +3029,24 @@ a:focus {
     
 }
 
-
-/*large former 68*/@media only screen and (min-width: 60em) {    
- 
+/*awkward bit */ @media only screen and (min-width: 50em) { 
+    .bannerTop {
+    height: 30em;
+     padding-top: 10em;
+    background-image: url(../artwork/topBanner_hand_3.svg);
+    background-size:100%;
+    background-position: bottom -2em right 1em;
+    background-repeat: no-repeat;
+    }    
     
 .bannerTop h2 {
-    text-align: center;
-    font-size: 3.5em;
-    line-height: 120%;
+    text-align: left;
+    }
+}
 
-}       
+
+/*large former 68*/@media only screen and (min-width: 60em) {    
+         
     
  .projectItem {
     margin: 0;
@@ -3121,7 +3152,18 @@ a:focus {
 .bannerTop {
     height: 40em;
     padding-top: 14em;
-}    
+    background-image: url(../artwork/topBanner_hand_2.svg);
+    background-size: 85%;
+    background-position: right -2em bottom -8em;
+    background-repeat: no-repeat;
+    
+}   
+    
+.bannerTop h2 {
+    font-size: 3.5em;
+    line-height: 120%;
+
+}     
     
 .LOnly {
     display: block;
@@ -3257,10 +3299,12 @@ a:focus {
     }
     
     
-    .bannerTop {
+.bannerTop {
     padding-top: 20em;
     height: 50em;
-    background-size: 150%;
+    background-image: url(../artwork/topBanner_hand.svg);
+    background-size:70%;
+    background-position: right 2em bottom -8em;
 } 
     
 }
